@@ -9,16 +9,14 @@
         <module name="Voiture" />
         <module name="Client" />
         <module name="Gateway" />
+        <module name="Eureka_Server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Eureka_Server" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Client" options="-parameters" />
-      <module name="Eureka_Server" options="-parameters" />
+      <module name="Eureka_Server" options="" />
       <module name="Gateway" options="-parameters" />
       <module name="Voiture" options="-parameters" />
     </option>
